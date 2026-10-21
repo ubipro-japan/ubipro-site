@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ubipro.net/</loc>
+    <image:image>
+      <image:loc>https://ubipro.net/images/logo.webp</image:loc>
+      <image:title>UbiPro（Tokyo Consulting Group）</image:title>
+      <image:caption>UbiPro（Tokyo Consulting Group）のブランドロゴ</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ubipro.net/tokutei</loc>
+  </url>
+  <url>
+    <loc>https://ubipro.net/privacy</loc>
+    <lastmod>2026-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ubipro.net/terms</loc>
+    <lastmod>2026-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ubipro.net/services/pro-estate</loc>
+  </url>
+  <url>
+    <loc>https://ubipro.net/services/prosku</loc>
+  </url>
+  <url>
+    <loc>https://ubipro.net/services/marketing-quest</loc>
+  </url>
+  <url>
+    <loc>https://ubipro.net/services/enghouse</loc>
+  </url>
+  <url>
+    <loc>https://ubipro.net/services/prodesign</loc>
+  </url>
+  <url>
+    <loc>https://ubipro.net/services/pro-online</loc>
+  </url>
+</urlset>

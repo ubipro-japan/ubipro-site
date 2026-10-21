@@ -1,0 +1,133 @@
+export const enghouse = {
+  id: "enghouse",
+  code: "04",
+  brand: "EngHouse",
+  nameJa: "英語塾 & 英語託児",
+  nameEn: "English School & Childcare",
+  accent: "accent",
+  icon: "ri-translate-2",
+  taglineJa: "平日夜間・土日。英語で預かる託児も、同じ場所に。",
+  taglineEn: "Weeknights, weekends, and English-only childcare under one roof.",
+  leadJa:
+    "共働き家庭のスケジュールに合わせ、平日夜間と土日に英語レッスンを提供しています。英語のみで運営する託児スペースが同じ建物にあるため、教室と託児を別々に回らずに、英語に触れる時間を確保できます。",
+  leadEn:
+    "English classes on weeknights and weekends, designed around working families. Our English-immersion childcare sits in the same place, so exposure to English doesn't mean an extra commute.",
+  heroImage:
+    "/images/enghouse.jpg",
+  stats: [
+    { value: "480", unit: "名", labelJa: "在籍生徒数", labelEn: "Enrolled students" },
+    { value: "88", unit: "%", labelJa: "英検3級以上 合格率", labelEn: "Eiken Grade 3+ pass rate" },
+    { value: "7", unit: "日", labelJa: "開講日（平日・土日）", labelEn: "Open days per week" },
+    { value: "100", unit: "%", labelJa: "バイリンガル講師", labelEn: "Bilingual teachers" },
+  ],
+  challenges: [
+    {
+      icon: "ri-time-line",
+      titleJa: "平日昼間の習い事に通えない",
+      titleEn: "No daytime slots",
+      descJa: "共働きで平日の昼間に通わせる時間が取れず、習い事を諦めてしまうご家庭が少なくありません。",
+    },
+    {
+      icon: "ri-road-map-line",
+      titleJa: "塾と託児を別々に回るのが大変",
+      titleEn: "Two places, two trips",
+      descJa: "塾と託児が別々の場所にあると、仕事終わりの時間が移動だけで埋まってしまいます。",
+    },
+    {
+      icon: "ri-chat-off-line",
+      titleJa: "英語に触れる時間が足りない",
+      titleEn: "Too little exposure",
+      descJa: "週1回のレッスンだけでは、言葉が定着するほどの量に届かないことがほとんどです。",
+    },
+  ],
+  strengths: [
+    {
+      icon: "ri-moon-clear-line",
+      titleJa: "夜間・土日もしっかり開講",
+      titleEn: "Nights & weekends open",
+      descJa: "平日は19:00〜21:00、土日は9:00〜18:00まで開講。仕事のリズムに合わせて選べます。",
+    },
+    {
+      icon: "ri-home-heart-line",
+      titleJa: "英語託児の併設",
+      titleEn: "English childcare",
+      descJa: "レッスン前後の待機時間も、英語で過ごせる託児スペースとして利用できます。",
+    },
+    {
+      icon: "ri-user-settings-line",
+      titleJa: "マンツーマン中心の設計",
+      titleEn: "Built around 1-on-1",
+      descJa: "1対1のレッスンで、発話量と理解度に合わせて進め方をその場で調整します。",
+    },
+    {
+      icon: "ri-award-line",
+      titleJa: "英検対策はレッスン内で",
+      titleEn: "Eiken prep included",
+      descJa: "英検対策は別メニューではなく通常のレッスンに組み込み、目標級に向けた学習計画を個別に作成します。",
+    },
+  ],
+  menu: [
+    {
+      icon: "ri-user-star-line",
+      titleJa: "マンツーマンレッスン",
+      titleEn: "Private lessons",
+      descJa: "目標に合わせた個別カリキュラム。英語の基礎から英検対策までを同じレッスンの中で組み立て、苦手分野の集中対策や帰国子女の維持にも対応します。",
+    },
+    {
+      icon: "ri-bear-smile-line",
+      titleJa: "英語託児（平日・土日）",
+      titleEn: "English childcare",
+      descJa: "平日も土日も開講する、英語のみで運営する託児。遊びと読み聞かせを通じて、自然に英語の音に慣れていきます。",
+    },
+    {
+      icon: "ri-computer-line",
+      titleJa: "オンラインレッスン",
+      titleEn: "Online lessons",
+      descJa: "通塾が難しい日はオンラインに切り替え可能。振替としても利用できます。",
+    },
+  ],
+  pricing: [
+    {
+      nameJa: "1ヶ月体験",
+      nameEn: "One-month trial",
+      price: "12,000円",
+      priceNote: "税別 / 1ヶ月",
+      descJa: "まずは1ヶ月だけ試したい方へ。入会金はかからず、そのまま継続もできます。",
+      features: ["1ヶ月・月4回／1回50分", "入会金不要", "英検対策もレッスン内で", "振替2回まで"],
+      recommended: false,
+    },
+    {
+      nameJa: "マンツーマン",
+      nameEn: "Private lessons",
+      price: "月額 24,000円",
+      priceNote: "税別 / 月4回",
+      descJa: "目標に合わせて最短で伸ばしたい方へ。英検対策もこのレッスン内で進めます。",
+      features: ["月4回・1回50分", "個別カリキュラム", "英検対策もレッスン内で", "振替無制限（前日まで）"],
+      recommended: true,
+    },
+    {
+      nameJa: "英語託児",
+      nameEn: "English childcare",
+      price: "1時間 3,500円",
+      priceNote: "税別 / 1時間",
+      descJa: "レッスン前後の待機や、単発の預け先として。土日も開講しています。",
+      features: ["平日・土日ともに開講", "英語のみで運営", "対象：2歳〜小学3年生", "当日予約可（空きがあれば）"],
+      recommended: false,
+    },
+  ],
+  priceNoteJa: "表示金額はすべて税別の目安です。教材費は別途ご案内します。",
+  flow: [
+    { step: "01", titleJa: "体験申込", titleEn: "Book a trial", descJa: "フォームから体験レッスンをお申し込みください。" },
+    { step: "02", titleJa: "レベルチェック", titleEn: "Level check", descJa: "20分の面談と簡単なチェックで現在地を確認します。" },
+    { step: "03", titleJa: "クラス決定", titleEn: "Class placement", descJa: "通いやすい時間帯とレベルに合わせてクラスを決めます。" },
+    { step: "04", titleJa: "レッスン開始", titleEn: "Start", descJa: "初回は保護者様の見学も可能です。" },
+  ],
+  faq: [
+    { q: "何歳から通えますか？", a: "英語託児は2歳からお預かりしています。レッスンは幼児から中学生までが対象です。まずは体験レッスンでご様子を確認ください。" },
+    { q: "振替はできますか？", a: "マンツーマンは前日までのご連絡で回数制限なく振替できます。土日の振替枠もご用意しています。" },
+    { q: "託児だけの利用はできますか？", a: "可能です。平日・土日ともに開講しており、レッスンに通っていないお子様でも英語託児のみご利用いただけます。" },
+    { q: "1ヶ月体験はどんな内容ですか？", a: "マンツーマンレッスンを月4回（1回50分）受けられる1ヶ月のバックです。入会金はかからず、合わなければそのまま終了できます。英検対策をご希望の場合は、体験中からレッスン内で組み込めます。" },
+    { q: "英検対策はいつから始められますか？", a: "小学3年生以上を目安に、通常のレッスンの中で英検対策を組み込んでいます。5級から準2級まで、目標級に応じて個別に学習計画を作成します。" },
+  ],
+  related: ["prosku", "prodesign"],
+};

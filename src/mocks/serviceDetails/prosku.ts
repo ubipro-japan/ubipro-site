@@ -1,0 +1,182 @@
+export const prosku = {
+  id: "prosku",
+  code: "02",
+  brand: "PROSKU",
+  nameJa: "保育専門事務",
+  nameEn: "Nursery Back-Office",
+  accent: "secondary",
+  icon: "ri-parent-line",
+  taglineJa: "看護師資格を持つスタッフが、保育現場の事務をまるごと巻き取ります。",
+  taglineEn: "Nurse-qualified staff take over the paperwork behind childcare.",
+  leadJa:
+    "認可・認証保育所の運営に精通した看護師資格保持者が、登降園管理・労務・保護者対応・保健業務を担当します。園長先生と保育士が、書類ではなく子どもと向き合う時間を取り戻すための事務支援です。",
+  leadEn:
+    "Registered-nurse operators handle attendance, labor admin, parent communication and health duties, so your teachers can focus on the children.",
+  heroImage:
+    "/images/prosku.jpg",
+  stats: [
+    { value: "62", unit: "園", labelJa: "支援施設数", labelEn: "Nurseries supported" },
+    { value: "42", unit: "%", labelJa: "事務工数 平均削減", labelEn: "Average admin reduction" },
+    { value: "96", unit: "%", labelJa: "継続率", labelEn: "Retention rate" },
+    { value: "18", unit: "名", labelJa: "看護師スタッフ", labelEn: "Nurse staff" },
+  ],
+  challenges: [
+    {
+      icon: "ri-file-list-3-line",
+      titleJa: "書類が多く、保育士が残業",
+      titleEn: "Paperwork overtime",
+      descJa: "連絡帳・登降園記録・給食台帳・各種報告書が重なり、保育の準備時間が削られていませんか。",
+    },
+    {
+      icon: "ri-phone-line",
+      titleJa: "電話対応で保育が止まる",
+      titleEn: "Calls interrupt care",
+      descJa: "保護者からの欠席連絡や問い合わせのたびに、クラス担任が現場を離れざるを得ない状態になっていませんか。",
+    },
+    {
+      icon: "ri-heart-pulse-line",
+      titleJa: "保健業務の担当がいない",
+      titleEn: "No health specialist",
+      descJa: "アレルギー対応表や健康観察の記録など、看護的な知識が求められる業務が属人化していませんか。",
+    },
+  ],
+  strengths: [
+    {
+      icon: "ri-nurse-line",
+      titleJa: "看護師資格 × 保育事務の専門性",
+      titleEn: "Nurse-led expertise",
+      descJa: "看護師資格を持ち、保育施設の運営を理解したスタッフが担当。保健業務もまとめてお任せいただけます。",
+    },
+    {
+      icon: "ri-flow-chart",
+      titleJa: "園ごとの業務フロー設計から",
+      titleEn: "Tailored workflow design",
+      descJa: "まず現在の業務を棚卸しし、園ごとの様式や連携ツールに合わせた進め方を設計します。",
+    },
+    {
+      icon: "ri-lock-2-line",
+      titleJa: "個人情報の厳格な管理",
+      titleEn: "Strict data handling",
+      descJa: "子ども・保護者の情報はアクセス権限を分離した環境で扱い、秘密保持契約を締結したうえで運用します。",
+    },
+    {
+      icon: "ri-book-open-line",
+      titleJa: "引き継ぎ前提のマニュアル化",
+      titleEn: "Documented handover",
+      descJa: "支援の内容はすべて手順書に残すため、将来的に園内で内製化する際もそのまま引き継げます。",
+    },
+  ],
+  menu: [
+    {
+      icon: "ri-calendar-check-line",
+      titleJa: "登降園・連絡帳管理",
+      titleEn: "Attendance & daily records",
+      descJa: "登降園の記録、欠席連絡の集約、連絡帳のデジタル化と保護者への配信を代行します。",
+    },
+    {
+      icon: "ri-team-line",
+      titleJa: "労務・シフト作成補助",
+      titleEn: "Labor & shift support",
+      descJa: "勤怠集計、シフト案の作成、社会保険手続きの書類準備までをサポートします。",
+    },
+    {
+      icon: "ri-customer-service-2-line",
+      titleJa: "保護者対応窓口",
+      titleEn: "Parent help desk",
+      descJa: "欠席・遅刻の連絡受付や各種お問い合わせの一次対応を、園のルールに沿って代行します。",
+    },
+    {
+      icon: "ri-heart-2-line",
+      titleJa: "保健・衛生業務",
+      titleEn: "Health & hygiene",
+      descJa: "アレルギー対応表の整備、健康観察記録、感染症発生時の報告書作成を看護師が担当します。",
+    },
+    {
+      icon: "ri-file-shield-2-line",
+      titleJa: "運営書類の整備・点検",
+      titleEn: "Documentation review",
+      descJa:
+        "保育記録や職員体制、契約書類などの台帳を棚卸しし、記載の食い違いを整えます。行政からの確認や助成金の申請時に、そのまま出せる状態を保ちます。",
+    },
+    {
+      icon: "ri-file-paper-2-line",
+      titleJa: "各種申請・助成金サポート",
+      titleEn: "Subsidy documentation",
+      descJa: "運営に必要な各種届出、補助金・助成金の申請書類を期限管理付きで準備し、申請後の実績報告まで伴走します。",
+    },
+  ],
+  pricing: [
+    {
+      nameJa: "ライトプラン",
+      nameEn: "Light plan",
+      price: "月額 65,000円",
+      priceNote: "税別 / 月20時間（時間単価 3,250円相当）",
+      descJa: "日常の事務を安定して任せたい園向け。使わなかった時間は翌月へ繰り越せます。",
+      features: ["月20時間の専用枠", "未消化分は翌月繰越", "登降園・連絡帳管理", "保護者対応の一次受付", "月次レポート"],
+      recommended: false,
+    },
+    {
+      nameJa: "スタンダードプラン",
+      nameEn: "Standard plan",
+      price: "月額 150,000円",
+      priceNote: "税別 / 月50時間（時間単価 3,000円相当）",
+      descJa: "事務全般をまとめて巻き取りたい園向け。専任担当者が付きます。",
+      features: ["月50時間の専用枠", "未消化分は翌月繰越", "労務・シフト補助", "保健業務（看護師担当）", "運営書類の整備・点検", "助成金・補助金の申請支援", "担当者固定制"],
+      recommended: true,
+    },
+    {
+      nameJa: "フルサポートプラン",
+      nameEn: "Full support",
+      price: "月額 250,000円",
+      priceNote: "税別 / 月100時間（時間単価 2,500円相当）",
+      descJa: "複数園や法人全体の事務をまとめて巻き取りたい方向け。月次会議への同席まで含みます。",
+      features: [
+        "月100時間の専用枠",
+        "未消化分は翌月繰越",
+        "複数園の横断対応",
+        "保健業務（看護師担当）",
+        "運営書類の整備・点検",
+        "助成金・補助金の申請支援",
+        "月次運営会議への同席",
+        "担当者2名体制",
+      ],
+      recommended: false,
+    },
+  ],
+  specialPlan: {
+    labelJa: "特別メニュー",
+    nameJa: "運営書類 一式サポート",
+    nameEn: "Documentation retainer",
+    price: "月額 250,000円",
+    priceNote: "税別 / 1園あたり・年間契約",
+    descJa:
+      "行政からの確認に備える資料一式を、年間の整備計画づくりから点検まで一括でお引き受けします。作業時間を計るのではなく、責任ごとお任せいただく定額の契約です。",
+    features: [
+      "年間の書類整備計画の作成",
+      "保育記録・職員体制・契約書類の点検",
+      "確認事項への回答資料の準備",
+      "期ごとのオンライン点検会",
+      "担当者2名体制",
+    ],
+  },
+  priceNoteJa:
+    "表示金額はすべて税別の目安です。導入時の業務棚卸し・手順書作成は実費精算（標準12時間程度・50,000円前後）となります。月額プランの未消化時間は翌月まで繰り越し可能で、翌々月への繰越・返金はいたしかねます。" +
+    "フルサポートプランは複数園・法人単位でのご契約も想定しており、園数や業務範囲により個別にお見積りします。",
+  flow: [
+    { step: "01", titleJa: "ヒアリング", titleEn: "Hearing", descJa: "現在の業務量と、一番手を離したい業務を伺います。" },
+    { step: "02", titleJa: "業務棚卸し", titleEn: "Process audit", descJa: "1週間の業務を洗い出し、引き継ぎ範囲と手順を設計します。" },
+    { step: "03", titleJa: "テスト運用", titleEn: "Trial run", descJa: "1ヶ月のテスト運用で、様式や連携方法をすり合わせます。" },
+    { step: "04", titleJa: "本稼働", titleEn: "Full operation", descJa: "担当者が固定され、月次で改善を回しながら定常運用に入ります。" },
+  ],
+  faq: [
+    { q: "園から離れた場所でも支援できますか？", a: "全国対応しています。業務はすべてオンラインで完結するため、所在地による制約はありません。" },
+    { q: "園が使っているシステムに合わせられますか？", a: "はい。既存の登降園システムや連絡帳アプリに合わせて運用します。新しいツールの導入が必要な場合はご相談のうえでご提案します。" },
+    { q: "運営書類一式サポートは時間制ですか？", a: "いいえ、1園あたりの定額制です。月々の作業時間ではなく、年間で必要となる書類の整備・点検・確認対応の準備を一式でお引き受けします。そのため、繁忙期と閑散期で作業量が偏っても料金は変わりません。" },
+    { q: "行政への報告や確認に備えた書類整理もお願いできますか？", a: "はい。日々の保育記録や職員体制、各種契約書類などの台帳を整備し、記載に食い違いがない状態にしておくことで、行政からのご確認や助成金の申請にそのまま対応できるようにします。なお、書類の整備・点検までの支援となり、立会いや代行は行っておりません。" },
+    { q: "初期費用はかかりますか？", a: "はい。導入時に業務棚卸しと手順書作成を行い、その分を実費で精算します（標準12時間程度・導入費 50,000円前後が目安）。月額プランに含める形ではなく実費精算にしているため、園の規模や業務の複雑さに見合った費用だけで済みます。" },
+    { q: "使わなかった時間はどうなりますか？", a: "月額プランの未消化時間は翌月まで繰り越せます。翌々月への繰越や返金はいたしかねますので、繁忙期に合わせた時間数の調整をご提案します。" },
+    { q: "看護師を常駐させることはできますか？", a: "PROSKUは事務支援のサービスとなり、常駐派遣は行っていません。保健業務は書類・記録の整備を中心に、看護師資格を持つスタッフが遠隔で担当します。" },
+    { q: "子どもの個人情報の扱いはどうなっていますか？", a: "秘密保持契約を締結し、アクセス権限を分離した環境で取り扱います。支援終了時にはデータを返却・削除します。" },
+  ],
+  related: ["pro-online", "enghouse"],
+};
